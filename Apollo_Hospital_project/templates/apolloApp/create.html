@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+{% extends 'apolloApp/base.html'%}
+{%block body_block%}
+<form method="post">
+  {{form.as_p}}
+  {%csrf_token%}
+
+  <input type="submit" class="btn btn-primary" value="SUBMIT">
+</form>
+{%endblock%}

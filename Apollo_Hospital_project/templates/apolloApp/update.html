@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>UPDATE INFO</h1>
+
+    <form method="post">
+      patient name:<input type="text" name="pname" value="{{patient.pname}}"><br>
+      patient number:<input type="text" name="pno" value="{{patient.pno}}"><br>
+      patient marks:<input type="text" name="pmarks" value="{{patient.pmarks}}"><br>
+      <input type="submit" value="UPDATE">
+      {% csrf_token%}
+
+    </form>
+  </body>
+</html>

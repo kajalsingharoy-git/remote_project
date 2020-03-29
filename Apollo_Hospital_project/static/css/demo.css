@@ -1,0 +1,30 @@
+.container.jumbortorn{
+  background: green;
+  color: blue;
+  margin-top: 150px;
+}
+
+body
+{
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZhHV53mqepH5s6akag4TrNzlavq3-0UznAj0L4JxtyEjYn9TQ&s");
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+
+h1{
+  color: green;
+  text-align: center;
+}
+
+td,th,table{
+  margin: auto;
+  border: 2px solid;
+  background: yellow;
+  font-size: 25;
+}
+
+a{
+  align-content: center;
+  align-items: center;
+  margin: auto;
+}
